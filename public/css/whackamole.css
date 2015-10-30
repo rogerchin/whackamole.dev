@@ -1,0 +1,38 @@
+html {
+	background-image: url("/img/dramaticmole.jpg");
+	background-size: 100% ;
+}
+.board {
+	width: 462px;
+	height: 462px;
+	position: fixed;
+}
+
+.board:hover{
+	cursor:url("/img/thor.png"), auto}
+
+.tile{
+	height: 150px;
+	width: 150px;
+	border: 2px solid beige;
+	float: left;
+	border-radius: 150px;
+	background-color: black;
+	opacity: .5;
+	}
+
+.tile:nth-child(3n+1) {
+	clear:both;
+}
+
+.score {
+	width: 200px;
+	height: 30px;
+}
+
+.wacked {
+	background-image: url("/img/moley.gif");
+	background-position: center;
+	background-repeat: no-repeat;
+	opacity: 1;
+}
